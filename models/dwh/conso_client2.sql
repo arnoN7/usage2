@@ -1,6 +1,6 @@
 {{-
     config(
-        materialized='incremental_stream',
+        materialized='incremental',
         unique_key=['ID'],
         src_table='add_clients'
     )
